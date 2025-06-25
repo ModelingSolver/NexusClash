@@ -1,0 +1,111 @@
+/* === Polices === */
+
+.header {
+  background-color: #4A148C;
+}
+
+/* Icône burger jaune */
+.navbar-toggler-icon.custom-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23FFEB3B' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #7C4DFF; /* Fond général violet */
+  color: #FFEB3B; /* Couleur de texte principale */
+  margin: 0;
+  padding: 0;
+}
+
+/* Titre principal et certaines sections */
+h1, h2, h5, .hero-text h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Ajustement images section prochaine-edition */
+.prochaine-edition img {
+  width: 100%;
+  height: 200px; /* fixe une hauteur uniforme */
+  object-fit: cover; /* remplissage propre sans déformation */
+}
+
+/* Section "Prochaine édition" */
+.prochaine-edition h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Présentation : texte en #121212 */
+.presentation-text {
+  color: #121212;
+}
+
+/* === Formulaire === */
+.form-section input[type="text"],
+.form-section input[type="email"] {
+  background-color: #E0E0E0;
+  color: #121212;
+  border: none;
+}
+
+.form-section input::placeholder {
+  color: #121212;
+}
+
+.form-section .form-check-label {
+  color: #FFEB3B;
+}
+
+.form-section .form-check-input {
+  background-color: #121212;
+  border: 1px solid #FFEB3B;
+}
+
+.btn-custom {
+  background-color: #121212; /* noir personnalisé */
+  color: #FFEB3B;             /* jaune Nexus */
+  border: none;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #1f1f1f; /* noir un peu plus clair au survol */
+  cursor: pointer;
+}
+
+/* === Navbar === */
+
+.nav-link {
+  color: #FFEB3B !important;
+}
+
+/* === Footer === */
+footer {
+  background-color: #4A148C ;
+  color: #FFEB3B;
+}
+
+footer a {
+  color: #FFEB3B;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #FFF176; /* jaune plus clair au survol */
+}
+
+/* === Images === */
+img {
+  border-radius: 8px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+}
+
+
+
